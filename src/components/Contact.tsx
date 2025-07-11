@@ -175,7 +175,7 @@ Samanuri Sri Manasa Varma`;
                   </label>
                   <Input
                     id="name"
-                    name="name"
+                    name="user_name"
                     type="text"
                     required
                     value={formData.name}
@@ -190,7 +190,7 @@ Samanuri Sri Manasa Varma`;
                   <Input
                     id="email"
                     name="email"
-                    type="email"
+                    type="user_email"
                     required
                     value={formData.email}
                     onChange={handleChange}
@@ -205,7 +205,7 @@ Samanuri Sri Manasa Varma`;
                 </label>
                 <Input
                   id="subject"
-                  name="subject"
+                  name="title"
                   type="text"
                   required
                   value={formData.subject}
