@@ -9,7 +9,10 @@ export const Hero = () => {
     'Full Stack Developer',
     'AI Enthusiast', 
     'Tech Explorer',
-    'Problem Solver'
+    'Problem Solver',
+    'Open Source Contributor',
+    'Creative Coder',
+    'Lifelong Learner'
   ];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -55,18 +58,18 @@ export const Hero = () => {
     // Create a temporary link to download resume
     const link = document.createElement('a');
     link.href = '/resume.pdf'; // You'll need to add your resume.pdf to the public folder
-    link.download = 'John_Doe_Resume.pdf';
+    link.download = 'MANASA.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
 
   const openGithub = () => {
-    window.open('https://github.com/johndoe', '_blank');
+    window.open('https://github.com/manasaavarmaa', '_blank');
   };
 
   const openLinkedin = () => {
-    window.open('https://linkedin.com/in/johndoe', '_blank');
+    window.open('https://linkedin.com/in/smanasavarma', '_blank');
   };
 
   return (
@@ -126,7 +129,7 @@ export const Hero = () => {
             <Button 
               variant="ghost" 
               size="icon" 
-              onClick={() => window.open("https://drive.google.com/uc?export=download&id=1oRiP7tdtdzSvXFQY7qh-Q5I-cRAQG9FV", "_blank")}
+              onClick={() => window.open("https://drive.google.com/file/d/1-518aWaoUj-VSRTmEUlKBP50CZO0yKH7/view?usp=sharing", "_blank")}
               className="hover:scale-110 transition-all duration-200 text-white hover:bg-white/10 border border-white/20">
               <Download className="h-6 w-6" />
             </Button>

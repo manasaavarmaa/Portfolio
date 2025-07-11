@@ -9,7 +9,7 @@ export const Projects = () => {
       tech: ['Vite', 'Tailwind CSS', 'TypeScript', 'HTML', 'CSS', 'JavaScript'],
       gradient: 'from-blue-600 to-purple-600',
       code: 'https://github.com/manasaavarmaa/Crop_Disease_Identification',
-      live: 'https://crop-disease-identification.vercel.pp/'
+      live: 'https://crop-disease-identification-git-main-manasagithub1s-projects.vercel.app',
     },
     {
       title: 'Parkinson\'s Disease Detection',
@@ -32,7 +32,7 @@ export const Projects = () => {
       description: 'An AI-powered resume builder that generates personalized resumes based on user input, with templates and export options.',
       tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
       gradient: 'from-purple-600 to-pink-600',
-      code: 'https://github.com/manasaavarmaa/AI-Based-Resume-Builder/tree/Manasa',
+      code: 'https://github.com/manasaavarmaa/AI-Resume-Builder',
       live: 'https://ai-resume-builder-eight-mu.vercel.app/'
     },
     {
