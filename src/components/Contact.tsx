@@ -43,7 +43,7 @@ Samanuri Sri Manasa Varma`;
     try {
       await emailjs.send(
         'service_rtfdi4p',      
-        'template_in3xbnp',     
+        'template_czi3pbt',     
         {
           from_name: formData.name,
           reply_to: formData.email,
@@ -175,7 +175,7 @@ Samanuri Sri Manasa Varma`;
                   </label>
                   <Input
                     id="name"
-                    name="user_name"
+                    name="name"
                     type="text"
                     required
                     value={formData.name}
@@ -190,7 +190,7 @@ Samanuri Sri Manasa Varma`;
                   <Input
                     id="email"
                     name="email"
-                    type="user_email"
+                    type="email"
                     required
                     value={formData.email}
                     onChange={handleChange}
@@ -205,7 +205,7 @@ Samanuri Sri Manasa Varma`;
                 </label>
                 <Input
                   id="subject"
-                  name="title"
+                  name="subject"
                   type="text"
                   required
                   value={formData.subject}
