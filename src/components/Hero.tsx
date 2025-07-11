@@ -129,7 +129,7 @@ export const Hero = () => {
             <Button 
               variant="ghost" 
               size="icon" 
-              onClick={() => window.open("https://drive.google.com/file/d/1q2O4mK7B4sA20x6_PjNM1iw6A8rcXRPM/view?usp=sharing", "_blank")}
+              onClick={() => window.open("https://drive.google.com/file/d/1q2O4mK7B4sA20x6_PjNM1iw6A8rcXRPM/view?usp=drive_link", "_blank")}
               className="hover:scale-110 transition-all duration-200 text-white hover:bg-white/10 border border-white/20">
               <Download className="h-6 w-6" />
             </Button>
