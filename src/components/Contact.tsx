@@ -46,12 +46,22 @@ Samanuri Sri Manasa Varma`;
         'template_czi3pbt',     
         {
           from_name: formData.name,
-          reply_to: formData.email,
+          email: formData.email,
           subject: formData.subject,
-          message: formData.message
+          message: formData.message,
+          time: new Date().toLocaleString()
         },
         'lQjX3EpuRl27YT_uE'     
       );
+      await emailjs.send(
+        'service_rtfdi4p',
+        'template_d9rwox8',
+  {
+    from_name: formData.name,
+    email: formData.email
+  },
+  'lQjX3EpuRl27YT_uE'
+);
 
       setIsSubmitted(true);
       toast({
