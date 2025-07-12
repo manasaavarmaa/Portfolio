@@ -97,7 +97,7 @@ export const Hero = () => {
               className="group hover:scale-105 transition-all duration-200 bg-white text-black hover:bg-gray-200"
             >
               View My Work
-              <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
+              
             </Button>
             <Button
               variant="outline"
@@ -110,29 +110,6 @@ export const Hero = () => {
           </div>
 
           <div className="flex justify-center space-x-6 animate-fade-in" style={{animationDelay: '0.8s'}}>
-            <Button 
-              variant="ghost" 
-              size="icon" 
-              onClick={() => window.open("https://github.com/manasaavarmaa")}
-              className="hover:scale-110 transition-all duration-200 text-white hover:bg-white/10 border border-white/20"
-            >
-              <Github className="h-6 w-6" />
-            </Button>
-            <Button 
-              variant="ghost" 
-              size="icon" 
-              onClick={() => window.open("https://www.linkedin.com/in/smanasavarma", "_blank")}
-              className="hover:scale-110 transition-all duration-200 text-white hover:bg-white/10 border border-white/20"
-            >
-              <Linkedin className="h-6 w-6" />
-            </Button>
-            <Button 
-              variant="ghost" 
-              size="icon" 
-              onClick={() => window.open("https://drive.google.com/file/d/1q2O4mK7B4sA20x6_PjNM1iw6A8rcXRPM/view?usp=drive_link", "_blank")}
-              className="hover:scale-110 transition-all duration-200 text-white hover:bg-white/10 border border-white/20">
-              <Download className="h-6 w-6" />
-            </Button>
           </div>
         </div>
       </div>
