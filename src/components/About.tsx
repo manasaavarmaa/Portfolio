@@ -4,7 +4,7 @@ import { Download } from "lucide-react";
 export const About = () => {
   const downloadResume = () => {
     const link = document.createElement("a");
-    link.href = "/Manasa_Resume.pdf"; // Make sure resume.pdf is placed in the public/ folder
+    link.href = "/Manasa_Resume.pdf";
     link.download = "MANASA.pdf";
     document.body.appendChild(link);
     link.click();
