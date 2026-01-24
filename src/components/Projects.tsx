@@ -4,6 +4,35 @@ import { ExternalLink, Github } from 'lucide-react';
 export const Projects = () => {
   const projects = [
     {
+      title: 'AI Resume Builder',
+      description: 'An AI-powered resume builder that generates personalized resumes based on user input, with templates and export options.',
+      tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap', 'HTML', 'CSS', 'JavaScript', 'Natural Language Processing', 'Machine Learning', 'Transformers', 'Hugging Face'],
+      gradient: 'from-purple-600 to-pink-600',
+      code: 'https://github.com/manasaavarmaa/AI-Resume-Builder',
+      live: 'https://ai-resume-builder-eight-mu.vercel.app/'
+    },
+    {
+      title: 'AI Document Parser',
+      description: 'An AI-based document parsing tool that extracts structured information from PDFs and text files, enabling organized data insights and simplified analysis.',
+      tech: ['Python', 'Flask', 'PDF Processing', 'Text Extraction', 'HTML', 'CSS', 'JavaScript', 'Natural Language Processing', 'Machine Learning', 'PyPDF2', 'spaCy', 'Pandas', 'NumPy', 'NLTK'],
+      gradient: 'from-slate-600 to-gray-800',
+      code: 'https://github.com/manasaavarmaa/Document-Parser'
+    },
+    {
+      title: 'Brain Tumour Detection',
+      description: 'A web-based brain tumour detection application that identifies tumor regions from user-uploaded MRI images using client-side analysis and responsive UI.',
+      tech: ['HTML', 'CSS', 'JavaScript', 'TensorFlow,Machine Learning', 'Image Processing', 'Flask', 'Python','OpenCV', 'NumPy', 'Pandas', 'Matplotlib', 'Scikit-learn'],
+      gradient: 'from-blue-700 to-cyan-600',
+      code: 'https://github.com/manasaavarmaa/Brain-Tumour-Detection'
+    },
+    {
+      title: 'DALL-E Image Generator',
+      description: 'A creative AI image generation tool that uses DALL-E to convert text prompts into unique visual outputs, allowing users to explore AI-generated artwork.',
+      tech: ['HTML', 'CSS', 'JavaScript', 'OpenAI API', 'Flask', 'Python', 'Axios', 'Bootstrap'],
+      gradient: 'from-pink-500 to-purple-600',
+      code: 'https://github.com/manasaavarmaa/DALL-E-Image-Generator',
+    },
+    {
       title: 'Crop Disease Detection',
       description: 'A modern web app that detects crop diseases from leaf images using a machine learning model, built with a fast frontend using Vite, Tailwind CSS, and TypeScript.',
       tech: ['Vite', 'Tailwind CSS', 'TypeScript', 'HTML', 'CSS', 'JavaScript'],
@@ -27,14 +56,7 @@ export const Projects = () => {
       code: 'https://github.com/manasaavarmaa/Food-Delivery-App',
       live: 'https://food-delivery-app-seven-beige.vercel.app/'
     },
-    {
-      title: 'AI Resume Builder',
-      description: 'An AI-powered resume builder that generates personalized resumes based on user input, with templates and export options.',
-      tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
-      gradient: 'from-purple-600 to-pink-600',
-      code: 'https://github.com/manasaavarmaa/AI-Resume-Builder',
-      live: 'https://ai-resume-builder-eight-mu.vercel.app/'
-    },
+    
     {
       title: 'Movie Recommendation System',
       description: 'A web application that recommends movies based on user preference using collaborative filtering and content-based filtering techniques.',

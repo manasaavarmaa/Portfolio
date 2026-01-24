@@ -5,12 +5,11 @@ import { ArrowDown, Github, Linkedin, Download } from 'lucide-react';
 export const Hero = () => {
   const [displayText, setDisplayText] = useState('');
   const roles = [
-    'Student-AIML',
+    'AIML Engineer',
     'Full Stack Developer',
-    'AI Enthusiast', 
-    'Tech Explorer',
-    'Problem Solver',
-    'Open Source Contributor',
+    'AI Application Developer',
+    'Data-Driven Problem Solver',
+    'Model Optimization Enthusiast',
     'Creative Coder',
     'Lifelong Learner'
   ];
@@ -77,7 +76,7 @@ export const Hero = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-            Samanuri Sri Manasa Varma
+            Sri Manasa Varma Samanuri
           </h1>
           <div className="text-xl md:text-2xl text-gray-300 mb-8 animate-fade-in h-16 flex items-center justify-center" style={{animationDelay: '0.2s'}}>
             <span className="inline-block">

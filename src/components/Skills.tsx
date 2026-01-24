@@ -20,12 +20,12 @@ export const Skills = () => {
     {
       title: 'Frontend',
       icon: <Code className="h-8 w-8" />,
-      skills: ['React','Angular']
+      skills: ['HTML','CSS','Javascript','React']
     },
     {
       title: 'Backend',
       icon: <Database className="h-8 w-8" />,
-      skills: ['Node.js','Express', 'Flask']
+      skills: ['Flask']
     },
     {
       title: 'AI/ML',
@@ -45,12 +45,12 @@ export const Skills = () => {
     {
       title: 'Development',
       icon: <Settings className="h-8 w-8" />,
-      skills: ['Git', 'Vite']
+      skills: ['Git', 'Vite', 'Postman']
     },
     {
       title: 'Web Technologies',
       icon: <Monitor className="h-8 w-8" />,
-      skills: ['HTML5', 'CSS3']
+      skills: ['HTML5', 'CSS3','Rest APIs', 'Bootstrap', 'Tailwind CSS']
     },
     {
       title: 'Tools',
