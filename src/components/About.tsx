@@ -43,7 +43,7 @@ export const About = () => {
                 <div className="text-sm text-muted-foreground">Projects Completed</div>
               </div>
               <div className="text-center p-4 bg-background rounded-lg shadow-sm">
-                <div className="text-3xl font-bold text-primary mb-2">3+</div>
+                <div className="text-3xl font-bold text-primary mb-2">4+</div>
                 <div className="text-sm text-muted-foreground">Internship Experience</div>
               </div>
             </div>
