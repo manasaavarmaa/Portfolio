@@ -15,7 +15,7 @@ export const Projects = () => {
       title: 'AI Document Parser',
       description: 'An AI-based document parsing tool that extracts structured information from PDFs and text files, enabling organized data insights and simplified analysis.',
       tech: ['Python', 'Flask', 'PDF Processing', 'Text Extraction', 'HTML', 'CSS', 'JavaScript', 'Natural Language Processing', 'Machine Learning', 'PyPDF2', 'spaCy', 'Pandas', 'NumPy', 'NLTK'],
-      gradient: 'from-slate-600 to-gray-800',
+      gradient: 'from-green-600 to-teal-600',
       code: 'https://github.com/manasaavarmaa/Document-Parser'
     },
     {
