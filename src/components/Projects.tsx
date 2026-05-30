@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 export const Projects = () => {
   const projects = [
@@ -23,57 +23,13 @@ export const Projects = () => {
       tech: ['HTML', 'CSS', 'JavaScript', 'TensorFlow,Machine Learning', 'Image Processing', 'Flask', 'Python','OpenCV', 'NumPy', 'Pandas', 'Matplotlib', 'Scikit-learn'],
       gradient: 'from-blue-700 to-cyan-600',
       code: 'https://github.com/manasaavarmaa/Brain-Tumour-Detection'
-    },
-    {
-      title: 'DALL-E Image Generator',
-      description: 'A creative AI image generation tool that uses DALL-E to convert text prompts into unique visual outputs, allowing users to explore AI-generated artwork.',
-      tech: ['HTML', 'CSS', 'JavaScript', 'OpenAI API', 'Flask', 'Python', 'Axios', 'Bootstrap'],
-      gradient: 'from-pink-500 to-purple-600',
-      code: 'https://github.com/manasaavarmaa/DALL-E-Image-Generator',
-    },
-    {
-      title: 'Crop Disease Detection',
-      description: 'A modern web app that detects crop diseases from leaf images using a machine learning model, built with a fast frontend using Vite, Tailwind CSS, and TypeScript.',
-      tech: ['Vite', 'Tailwind CSS', 'TypeScript', 'HTML', 'CSS', 'JavaScript'],
-      gradient: 'from-blue-600 to-purple-600',
-      code: 'https://github.com/manasaavarmaa/Crop_Disease_Identification',
-    },
-    {
-      title: 'Parkinson\'s Disease Detection',
-      description: 'A modern web app built that predicts Parkinson’s disease from voice data using a machine learning model, featuring a fast frontend with Vite, Tailwind CSS, and TypeScript.',
-      tech: ['Vite', 'Tailwind CSS', 'TypeScript','HTML', 'CSS', 'JavaScript'],
-      gradient: 'from-green-600 to-blue-600',
-      code: 'https://github.com/manasaavarmaa/Parkinson-s-Disease-Detection',
-    },
-    {
-      title: 'Food Delivery App',
-      description: 'A full-stack food delivery application with user authentication, restaurant listings, order management, and real-time tracking.',
-      tech: ['React', 'Node.js', 'Express', 'HTML', 'CSS', 'JavaScript'],
-      gradient: 'from-orange-600 to-red-600',
-      code: 'https://github.com/manasaavarmaa/Food-Delivery-App',
-    },
-    
-    {
-      title: 'Movie Recommendation System',
-      description: 'A web application that recommends movies based on user preference using collaborative filtering and content-based filtering techniques.',
-      tech: ['React', 'Node.js', 'Express', 'HTML', 'CSS', 'JavaScript'],
-      gradient: 'from-teal-600 to-green-600',
-      code: 'https://github.com/manasaavarmaa/Movie-Recommendation-System',
-    },
-    {
-      title: 'Heart Disease Risk Assessment',
-      description: 'A machine learning application that predicts the risk of heart disease based on user input, using logistic regression and data visualization.',
-      tech: ['Python', 'Flask', 'Scikit-learn', 'Pandas', 'Matplotlib'],
-      gradient: 'from-indigo-600 to-purple-600',
-      code: 'https://github.com/manasaavarmaa/Heart-Disease-Risk-Assessment',
     }
   ];
-
   return (
     <section id="projects" className="py-20 bg-muted/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="tt-4xl font-bold mb-4 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
             Featured Projects
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-blue-600 mx-auto mb-4"></div>
@@ -126,6 +82,18 @@ export const Projects = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="text-center mt-10">
+          <a
+            href="https://github.com/manasaavarmaa"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button size="lg">
+              <Github className="mr-2 h-4 w-4" />
+              View More Projects on GitHub
+            </Button>
+          </a>
         </div>
       </div>
     </section>
