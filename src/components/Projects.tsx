@@ -2,7 +2,6 @@ import { Button } from '@/components/ui/button';
 import { Github } from 'lucide-react';
 
 export const Projects = () => {
-  const projects = [
 const projects = [
   {
     title: 'RAG Metadata Filtering System',
@@ -19,7 +18,7 @@ const projects = [
       'Generative AI'
     ],
     gradient: 'from-purple-600 to-pink-600',
-    code: 'YOUR_GITHUB_LINK'
+    code: 'https://github.com/manasaavarmaa/RAG-Metadata-Filtering-System'
   },
   {
     title: 'AeroVision – Drone Face Recognition',
@@ -35,7 +34,7 @@ const projects = [
       'Machine Learning'
     ],
     gradient: 'from-green-600 to-teal-600',
-    code: 'YOUR_GITHUB_LINK'
+    code: 'https://github.com/manasaavarmaa/AeroVision'
   },
   {
     title: 'ResumeIQ – AI Resume Analyzer',
@@ -51,7 +50,7 @@ const projects = [
       'AI'
     ],
     gradient: 'from-blue-700 to-cyan-600',
-    code: 'YOUR_GITHUB_LINK'
+    code: 'https://github.com/manasaavarmaa/Resume-IQ'
   }
 ];
   return (
