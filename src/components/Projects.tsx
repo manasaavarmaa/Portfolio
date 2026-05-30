@@ -3,28 +3,57 @@ import { Github } from 'lucide-react';
 
 export const Projects = () => {
   const projects = [
-    {
-      title: 'AI Resume Builder',
-      description: 'An AI-powered resume builder that generates personalized resumes based on user input, with templates and export options.',
-      tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap', 'HTML', 'CSS', 'JavaScript', 'Natural Language Processing', 'Machine Learning', 'Transformers', 'Hugging Face'],
-      gradient: 'from-purple-600 to-pink-600',
-      code: 'https://github.com/manasaavarmaa/AI-Resume-Builder',
-    },
-    {
-      title: 'AI Document Parser',
-      description: 'An AI-based document parsing tool that extracts structured information from PDFs and text files, enabling organized data insights and simplified analysis.',
-      tech: ['Python', 'Flask', 'PDF Processing', 'Text Extraction', 'HTML', 'CSS', 'JavaScript', 'Natural Language Processing', 'Machine Learning', 'PyPDF2', 'spaCy', 'Pandas', 'NumPy', 'NLTK'],
-      gradient: 'from-green-600 to-teal-600',
-      code: 'https://github.com/manasaavarmaa/Document-Parser'
-    },
-    {
-      title: 'Brain Tumour Detection',
-      description: 'A web-based brain tumour detection application that identifies tumor regions from user-uploaded MRI images using client-side analysis and responsive UI.',
-      tech: ['HTML', 'CSS', 'JavaScript', 'TensorFlow,Machine Learning', 'Image Processing', 'Flask', 'Python','OpenCV', 'NumPy', 'Pandas', 'Matplotlib', 'Scikit-learn'],
-      gradient: 'from-blue-700 to-cyan-600',
-      code: 'https://github.com/manasaavarmaa/Brain-Tumour-Detection'
-    }
-  ];
+const projects = [
+  {
+    title: 'RAG Metadata Filtering System',
+    description:
+      'Built a Retrieval-Augmented Generation (RAG) pipeline using FAISS and LLMs for semantic retrieval and metadata-aware search. Enabled faster and contextually accurate responses through intelligent document filtering and retrieval.',
+    tech: [
+      'Python',
+      'FAISS',
+      'LLMs',
+      'RAG',
+      'Vector Search',
+      'Prompt Engineering',
+      'NLP',
+      'Generative AI'
+    ],
+    gradient: 'from-purple-600 to-pink-600',
+    code: 'YOUR_GITHUB_LINK'
+  },
+  {
+    title: 'AeroVision – Drone Face Recognition',
+    description:
+      'Developed a drone-based face recognition system using Swin Transformer and OpenCV for real-time facial identification. Enhanced recognition performance using Grey Wolf Optimization techniques.',
+    tech: [
+      'Python',
+      'Computer Vision',
+      'OpenCV',
+      'Swin Transformer',
+      'Deep Learning',
+      'Image Processing',
+      'Machine Learning'
+    ],
+    gradient: 'from-green-600 to-teal-600',
+    code: 'YOUR_GITHUB_LINK'
+  },
+  {
+    title: 'ResumeIQ – AI Resume Analyzer',
+    description:
+      'Built an AI-powered resume analyzer using NLP-based skill extraction and semantic similarity matching. Automated resume screening by comparing candidate profiles against job descriptions.',
+    tech: [
+      'Python',
+      'Flask',
+      'NLP',
+      'Semantic Search',
+      'OpenAI API',
+      'Machine Learning',
+      'AI'
+    ],
+    gradient: 'from-blue-700 to-cyan-600',
+    code: 'YOUR_GITHUB_LINK'
+  }
+];
   return (
     <section id="projects" className="py-20 bg-muted/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
