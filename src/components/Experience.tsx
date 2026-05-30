@@ -57,7 +57,7 @@ export const Experience = () => {
       id="experience"
       className="py-20 bg-background transition-colors duration-300"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
@@ -84,15 +84,15 @@ export const Experience = () => {
             {experiences.map((exp, index) => (
               <div
                 key={index}
-                className="bg-card border border-border rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+               className="group bg-card border-l-4 border-primary rounded-2xl p-6 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
               >
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                   <div>
-                    <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-3">
+                    <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-semibold tracking-wide mb-3">
                       {exp.company}
                     </span>
 
-                    <h4 className="text-2xl font-bold italic">
+                    <h4 className="text-2xl font-bold italic tracking-tight">
                       {exp.role}
                     </h4>
                   </div>
@@ -124,7 +124,7 @@ export const Experience = () => {
             {achievements.map((achievement, index) => (
               <div
                 key={index}
-                className="bg-card border border-border rounded-xl p-5 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+                className="border-l-4 border-primary rounded-xl p-5 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
               >
                 <Award className="h-5 w-5 text-primary mb-3" />
 
