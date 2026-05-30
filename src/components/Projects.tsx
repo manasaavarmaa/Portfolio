@@ -9,7 +9,6 @@ export const Projects = () => {
       tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap', 'HTML', 'CSS', 'JavaScript', 'Natural Language Processing', 'Machine Learning', 'Transformers', 'Hugging Face'],
       gradient: 'from-purple-600 to-pink-600',
       code: 'https://github.com/manasaavarmaa/AI-Resume-Builder',
-      live: 'https://ai-resume-builder-eight-mu.vercel.app/'
     },
     {
       title: 'AI Document Parser',
@@ -38,7 +37,6 @@ export const Projects = () => {
       tech: ['Vite', 'Tailwind CSS', 'TypeScript', 'HTML', 'CSS', 'JavaScript'],
       gradient: 'from-blue-600 to-purple-600',
       code: 'https://github.com/manasaavarmaa/Crop_Disease_Identification',
-      live: 'https://crop-disease-identification-git-main-manasagithub1s-projects.vercel.app',
     },
     {
       title: 'Parkinson\'s Disease Detection',
@@ -46,7 +44,6 @@ export const Projects = () => {
       tech: ['Vite', 'Tailwind CSS', 'TypeScript','HTML', 'CSS', 'JavaScript'],
       gradient: 'from-green-600 to-blue-600',
       code: 'https://github.com/manasaavarmaa/Parkinson-s-Disease-Detection',
-      live: 'https://parkinson-s-disease-detection-alpha.vercel.app/'
     },
     {
       title: 'Food Delivery App',
@@ -54,7 +51,6 @@ export const Projects = () => {
       tech: ['React', 'Node.js', 'Express', 'HTML', 'CSS', 'JavaScript'],
       gradient: 'from-orange-600 to-red-600',
       code: 'https://github.com/manasaavarmaa/Food-Delivery-App',
-      live: 'https://food-delivery-app-seven-beige.vercel.app/'
     },
     
     {
@@ -63,7 +59,6 @@ export const Projects = () => {
       tech: ['React', 'Node.js', 'Express', 'HTML', 'CSS', 'JavaScript'],
       gradient: 'from-teal-600 to-green-600',
       code: 'https://github.com/manasaavarmaa/Movie-Recommendation-System',
-      live: 'https://movie-recommendation-system-one-rho.vercel.app/'
     },
     {
       title: 'Heart Disease Risk Assessment',
@@ -71,7 +66,6 @@ export const Projects = () => {
       tech: ['Python', 'Flask', 'Scikit-learn', 'Pandas', 'Matplotlib'],
       gradient: 'from-indigo-600 to-purple-600',
       code: 'https://github.com/manasaavarmaa/Heart-Disease-Risk-Assessment',
-      live: 'https://heart-disease-risk-assessment.vercel.app/'
     }
   ];
 
@@ -127,14 +121,6 @@ export const Projects = () => {
                   >
                     <Github className="h-4 w-4 mr-2" />
                     Code
-                  </Button>
-                  <Button
-                    size="sm"
-                    className="flex-1"
-                    onClick={() => window.open(project.live, "_blank")}
-                  >
-                    <ExternalLink className="h-4 w-4 mr-2" />
-                    Live Demo
                   </Button>
                 </div>
               </div>
