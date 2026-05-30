@@ -18,46 +18,86 @@ import {
 export const Skills = () => {
   const skillCategories = [
     {
-      title: 'Frontend',
-      icon: <Code className="h-8 w-8" />,
-      skills: ['HTML','CSS','Javascript','React']
-    },
-    {
-      title: 'Backend',
-      icon: <Database className="h-8 w-8" />,
-      skills: ['Flask']
-    },
-    {
-      title: 'AI/ML',
-      icon: <Brain className="h-8 w-8" />,
-      skills: ['TensorFlow', 'PyTorch',  'Scikit-learn' , 'Keras']
-    },
-    {
-      title: 'Programming Languages',
-      icon: <FileCode className="h-8 w-8" />,
-      skills: ['Python', 'Java']
-    },
-    {
-      title: 'Database Technologies',
-      icon: <HardDrive className="h-8 w-8" />,
-      skills: ['MongoDB', 'MySQL']
-    },
-    {
-      title: 'Development',
-      icon: <Settings className="h-8 w-8" />,
-      skills: ['Git', 'Vite', 'Postman']
-    },
-    {
-      title: 'Web Technologies',
-      icon: <Monitor className="h-8 w-8" />,
-      skills: ['HTML5', 'CSS3','Rest APIs', 'Bootstrap', 'Tailwind CSS']
-    },
-    {
-      title: 'Tools',
-      icon: <GitBranch className="h-8 w-8" />,
-      skills: ['VS Code','GitHub']
-    }
-  ];
+    title: 'Programming Languages',
+    icon: <FileCode className="h-8 w-8" />,
+    skills: ['Python', 'Java']
+  },
+  {
+    title: 'AI & Machine Learning',
+    icon: <Brain className="h-8 w-8" />,
+    skills: [
+      'Machine Learning',
+      'Deep Learning',
+      'Computer Vision',
+      'Natural Language Processing',
+      'TensorFlow',
+      'PyTorch',
+      'Scikit-learn',
+      'Keras'
+    ]
+  },
+  {
+    title: 'Generative AI',
+    icon: <Brain className="h-8 w-8" />,
+    skills: [
+      'LLMs',
+      'RAG',
+      'Prompt Engineering',
+      'FAISS',
+      'Hugging Face Transformers'
+    ]
+  },
+  {
+    title: 'Frontend Development',
+    icon: <Code className="h-8 w-8" />,
+    skills: [
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'React',
+      'Bootstrap',
+      'Tailwind CSS'
+    ]
+  },
+  {
+    title: 'Backend Development',
+    icon: <Database className="h-8 w-8" />,
+    skills: [
+      'Flask',
+      'REST APIs'
+    ]
+  },
+  {
+    title: 'Databases',
+    icon: <HardDrive className="h-8 w-8" />,
+    skills: [
+      'MySQL',
+      'MongoDB',
+      'FAISS'
+    ]
+  },
+  {
+    title: 'Data Analysis',
+    icon: <Monitor className="h-8 w-8" />,
+    skills: [
+      'Pandas',
+      'NumPy',
+      'Matplotlib',
+      'Seaborn'
+    ]
+  },
+  {
+    title: 'Tools & Development',
+    icon: <GitBranch className="h-8 w-8" />,
+    skills: [
+      'Git',
+      'GitHub',
+      'VS Code',
+      'Postman',
+      'Vite'
+    ]
+  }
+];
 
   return (
     <section id="skills" className="py-20">
