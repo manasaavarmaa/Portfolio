@@ -1,4 +1,3 @@
-```tsx
 import { Award, Briefcase, Calendar, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -154,4 +153,4 @@ export const Experience = () => {
     </section>
   );
 };
-```
+
