@@ -54,7 +54,7 @@ export const Hero = () => {
   };
 
   const downloadResume = () => {
-    // Create a temporary link to download resume
+    // Create a temporary link to download resume 
     const link = document.createElement('a');
     link.href = '/resume.pdf'; // You'll need to add your resume.pdf to the public folder
     link.download = 'MANASA.pdf';
@@ -71,47 +71,64 @@ export const Hero = () => {
     window.open('https://linkedin.com/in/smanasavarma', '_blank');
   };
 
-  return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative bg-black">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        <div className="animate-fade-in">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-            Sri Manasa Varma Samanuri
-          </h1>
-          <div className="text-xl md:text-2xl text-gray-300 mb-8 animate-fade-in h-16 flex items-center justify-center" style={{animationDelay: '0.2s'}}>
-            <span className="inline-block">
-              {displayText}
-              <span className="inline-block w-0.5 h-6 bg-white ml-1 animate-pulse"></span>
-            </span>
-          </div>
-          <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto animate-fade-in" style={{animationDelay: '0.4s'}}>
-            Crafting digital experiences with modern technologies and creative solutions. 
-            Passionate about creating beautiful, functional, and user-friendly applications.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-fade-in" style={{animationDelay: '0.6s'}}>
-            <Button
-              size="lg"
-              onClick={() => scrollToSection('#projects')}
-              className="group hover:scale-105 transition-all duration-200 bg-white text-black hover:bg-gray-200"
-            >
-              View My Work
-              
-            </Button>
-            <Button
-              variant="bg-white text-black"
-              size="lg"
-              onClick={() => scrollToSection('#contact')}
-              className="hover:scale-105 transition-all duration-200 border-white text-white hover:bg-white hover:text-black"
-            >
-              Get In Touch
-            </Button>
-          </div>
+ return (
+  <section
+    id="home"
+    className="min-h-screen flex items-center justify-center relative bg-background"
+  >
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      <div className="animate-fade-in">
+        <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
+          Sri Manasa Varma Samanuri
+        </h1>
 
-          <div className="flex justify-center space-x-6 animate-fade-in" style={{animationDelay: '0.8s'}}>
-          </div>
+        <div
+          className="text-xl md:text-2xl text-foreground mb-8 animate-fade-in h-16 flex items-center justify-center"
+          style={{ animationDelay: "0.2s" }}
+        >
+          <span className="inline-block">
+            {displayText}
+            <span className="inline-block w-0.5 h-6 bg-primary ml-1 animate-pulse"></span>
+          </span>
+        </div>
+
+        <p
+          className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto animate-fade-in"
+          style={{ animationDelay: "0.4s" }}
+        >
+          Crafting digital experiences with modern technologies and creative
+          solutions. Passionate about creating beautiful, functional, and
+          user-friendly applications.
+        </p>
+
+        <div
+          className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-fade-in"
+          style={{ animationDelay: "0.6s" }}
+        >
+          <Button
+            size="lg"
+            onClick={() => scrollToSection("#projects")}
+            className="group hover:scale-105 transition-all duration-200"
+          >
+            View My Work
+          </Button>
+
+          <Button
+            variant="outline"
+            size="lg"
+            onClick={() => scrollToSection("#contact")}
+            className="hover:scale-105 transition-all duration-200"
+          >
+            Get In Touch
+          </Button>
+        </div>
+
+        <div
+          className="flex justify-center space-x-6 animate-fade-in"
+          style={{ animationDelay: "0.8s" }}
+        >
         </div>
       </div>
-    </section>
-  );
-};
+    </div>
+  </section>
+);
