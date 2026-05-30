@@ -99,7 +99,7 @@ export const Hero = () => {
               
             </Button>
             <Button
-              variant="outline"
+              variant="bg-white text-black"
               size="lg"
               onClick={() => scrollToSection('#contact')}
               className="hover:scale-105 transition-all duration-200 border-white text-white hover:bg-white hover:text-black"
