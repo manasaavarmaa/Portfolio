@@ -7,6 +7,7 @@ import { Projects } from '@/components/Projects';
 import { Contact } from '@/components/Contact';
 import { Navigation } from '@/components/Navigation';
 import { ThemeProvider } from '@/components/ThemeProvider';
+import { Experience } from '@/components/Experience';
 
 const Index = () => {
   return (
